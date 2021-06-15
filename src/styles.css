@@ -11,6 +11,7 @@ body {
 
 :root {
   --green: #00b183;
+  --background: #d0fff2;
 }
 
 h1,
@@ -21,4 +22,6 @@ h5,
 h6,
 p {
   font-weight: 400;
+  color: var(--green);
+  text-shadow: rgba(0, 177, 131, 0.3) 2px 2px;
 }
