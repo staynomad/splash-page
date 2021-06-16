@@ -47,6 +47,12 @@ const App = () => {
           <h6>Contact Us</h6>
         </div>
       </div>
+      <img
+        className="illustration"
+        src="/images/illustration.svg"
+        alt="illustration"
+      />
+      <h6 className="legal">© 2021 NomΛd - All Rights Reserved.</h6>
     </div>
   );
 };
