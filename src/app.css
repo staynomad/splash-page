@@ -66,7 +66,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 3;
+  z-index: 0;
+}
+
+.contact-btn:hover {
+  opacity: 0.8;
 }
 
 .contact-btn h6 {
@@ -83,4 +87,5 @@
   right: -2px;
   background: rgba(0, 177, 131, 0.3);
   border-radius: 5px;
+  z-index: -1;
 }

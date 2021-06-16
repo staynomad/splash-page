@@ -2,6 +2,10 @@ import React from "react";
 import "./app.css";
 
 const App = () => {
+  const handleMailTo = () => {
+    window.location.href = "mailto:contact@visitnomad.com";
+  };
+
   return (
     <div className="screen">
       <div className="content">
@@ -38,7 +42,7 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="contact-btn">
+        <div onClick={handleMailTo} className="contact-btn">
           <div className="contact-btn-shadow"></div>
           <h6>Contact Us</h6>
         </div>
