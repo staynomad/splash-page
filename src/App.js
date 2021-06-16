@@ -2,12 +2,59 @@ import React from "react";
 import "./app.css";
 
 const App = () => {
+  const handleOpenSocial = (href) => {
+    window.open(href, "_blank");
+  };
+
   const handleMailTo = () => {
     window.location.href = "mailto:contact@visitnomad.com";
   };
 
   return (
     <div className="screen">
+      <div className="header">
+        <div className="logo-container">
+          <img className="logo" src="/images/logo.svg" alt="nomad-logo" />
+          <img
+            className="logo-shadow"
+            src="/images/logo.svg"
+            alt="nomad-logo"
+          />
+        </div>
+        <div className="socials-container">
+          <div
+            onClick={() =>
+              handleOpenSocial("https://www.linkedin.com/company/vhomesgroup")
+            }
+            className="social-container"
+          >
+            <img src="/images/linkedin.svg" alt="linkedin" />
+            <div className="social-shadow"></div>
+          </div>
+          <div
+            onClick={() =>
+              handleOpenSocial("https://www.instagram.com/nomadrenters/")
+            }
+            className="social-container"
+          >
+            <img src="/images/instagram.svg" alt="instagram" />
+            <div className="social-shadow"></div>
+          </div>
+          <div
+            onClick={() =>
+              handleOpenSocial("https://www.facebook.com/nomadrenters/")
+            }
+            className="social-container"
+          >
+            <img
+              className="facebook"
+              src="/images/facebook.svg"
+              alt="facebook"
+            />
+            <div className="social-shadow"></div>
+          </div>
+        </div>
+      </div>
       <div className="content">
         <h1 className="title">
           Big News Coming September <p className="one">1</p>st
