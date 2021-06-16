@@ -48,10 +48,10 @@
 
 .timer-label {
   position: absolute;
-  bottom: -5%;
+  bottom: -7%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .timer {
@@ -173,7 +173,7 @@
 
 .legal {
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   bottom: 20px;
   right: 20px;
 }
