@@ -11,4 +11,76 @@
 .content {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.one {
+  font-size: 4.5rem;
+  display: inline;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.timer-container {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-number {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.timer-label {
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+}
+
+.timer {
+  font-size: 8rem;
+}
+
+.contact-btn {
+  background: var(--green);
+  margin-top: 3rem;
+  padding: 3px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.contact-btn h6 {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: none;
+}
+
+.contact-btn-shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: -2px;
+  right: -2px;
+  background: rgba(0, 177, 131, 0.3);
+  border-radius: 5px;
 }
