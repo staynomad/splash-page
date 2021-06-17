@@ -48,7 +48,7 @@
 
 .timer-label {
   position: absolute;
-  bottom: -7%;
+  bottom: -10%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.7rem;
