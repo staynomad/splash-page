@@ -19,6 +19,7 @@
 .title {
   font-weight: 800;
   font-size: 3rem;
+  white-space: nowrap;
 }
 
 .one {
@@ -29,6 +30,7 @@
 .subtitle {
   margin-top: 1rem;
   font-size: 2rem;
+  white-space: nowrap;
 }
 
 .timer-container {
@@ -48,7 +50,7 @@
 
 .timer-label {
   position: absolute;
-  bottom: -10%;
+  bottom: -15%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.7rem;
@@ -176,4 +178,252 @@
   font-size: 1.4rem;
   bottom: 20px;
   right: 20px;
+}
+
+@media screen and (max-width: 1750px) {
+  .illustration {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  .illustration {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .illustration {
+    width: 50vw;
+  }
+
+  .timer-container {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .illustration {
+    display: none;
+  }
+
+  .timer-container {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .timer-container {
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .one {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .timer {
+    font-size: 6.5rem;
+  }
+
+  .contact-btn h6 {
+    font-size: 1.4rem;
+  }
+
+  .legal {
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+
+  .logo-shadow {
+    width: 10rem;
+  }
+
+  .social-container {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-container img {
+    width: 25px;
+  }
+
+  .facebook {
+    width: 15px !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .one {
+    font-size: 3.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.4rem;
+  }
+
+  .timer {
+    font-size: 6rem;
+  }
+
+  .timer-label {
+    font-size: 1.2rem;
+  }
+
+  .contact-btn h6 {
+    font-size: 1.3rem;
+  }
+
+  .legal {
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 8rem;
+  }
+
+  .logo-shadow {
+    width: 8rem;
+  }
+
+  .social-container {
+    width: 45px;
+    height: 45px;
+  }
+
+  .social-container img {
+    width: 25px;
+  }
+
+  .facebook {
+    width: 15px !important;
+  }
+
+  .header {
+    padding: 2rem 2rem 0 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 1.6rem;
+  }
+  .one {
+    font-size: 2.5rem;
+  }
+
+  .timer {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .social-container:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .socials-container {
+    margin-top: 2rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .one {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .timer {
+    font-size: 4rem;
+  }
+
+  .timer-label {
+    bottom: -25%;
+  }
+
+  .contact-btn h6 {
+    font-size: 1rem;
+  }
+
+  .legal {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .one {
+    font-size: 2rem;
+  }
+
+  .timer {
+    font-size: 3.8rem;
+  }
+}
+
+@media screen and (max-height: 860px) {
+  .illustration {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .logo {
+    width: 8rem;
+  }
+
+  .logo-shadow {
+    width: 8rem;
+  }
+
+  .social-container {
+    width: 45px;
+    height: 45px;
+  }
+
+  .social-container img {
+    width: 25px;
+  }
+
+  .facebook {
+    width: 15px !important;
+  }
+
+  .header {
+    padding: 2rem 2rem 0 2rem;
+  }
+}
+
+@media screen and (max-height: 620px) {
+  .header {
+    padding: 1rem 2rem 0 2rem;
+  }
 }
