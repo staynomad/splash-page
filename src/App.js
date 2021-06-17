@@ -16,7 +16,7 @@ const App = () => {
 
   const countdown = () => {
     //Get date info
-    const sep1 = new Date("September 1, 2021 00:00:00").getTime();
+    const sep1 = new Date("September 01, 2021 00:00:00").getTime();
     const currentDate = new Date().getTime();
     const gap = sep1 - currentDate;
 
@@ -24,7 +24,7 @@ const App = () => {
     const s = 1000;
     const m = s * 60;
     const h = m * 60;
-    const d = h * 60;
+    const d = h * 24;
 
     //setState
     setDays(Math.floor(gap / d));
